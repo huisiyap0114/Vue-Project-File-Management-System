@@ -48,23 +48,23 @@ Before running the project, make sure you have:
 
 ## 1. Clone the repository
 
--git clone https://github.com/huisiyap0114/Vue-Project-File-Management-System
+- git clone https://github.com/huisiyap0114/Vue-Project-File-Management-System
 
--cd Vue-Project-File-Management-System
+- cd file-management-notes-app
 
 ---
 
 ## 2. Navigate to backend folder
 
--cd server
+-  cd backend
 
 ---
    
 ## 3. Configure MySQL (Backend)
 
--CREATE DATABASE file_management_system 
+- CREATE DATABASE notesdb 
 
--Update application.propertities with your DB credentials
+- Update application.propertities with your DB credentials
 
 ---   
 ## 4. Build and Run the backend
@@ -76,7 +76,7 @@ Before running the project, make sure you have:
 --- 
 ## 5. Install dependencies (Frontend)
 
--Navigate to Frontend Folder
+-cd frontend
 
 -npm install
 
