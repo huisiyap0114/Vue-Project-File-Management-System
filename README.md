@@ -47,26 +47,23 @@ Before running the project, make sure you have:
 ## 🚀 Installation & Setup
 
 ### 1. Clone the repository
-'''bash
 git clone https://github.com/huisiyap0114/Vue-Project-File-Management-System
-'''bash
 cd Vue-Project-File-Management-System
 
 ### 2. Navigate to backend folder
-'''bash
-   -cd server
+cd server
    
 ### 3. Configure MySQL (Backend)
-   -CREATE DATABASE file_management_system 
-   -Update application.propertities with your DB credentials
+CREATE DATABASE file_management_system 
+Update application.propertities with your DB credentials
    
-4. Build and Run the backend
-   -mvn clean install
-   -mvn spring-boot:run
+### 4. Build and Run the backend
+mvn clean install
+mvn spring-boot:run
    
-5. Install dependencies (Frontend)
-   -Navigate to Frontend Folder
-   -npm install
+### 5. Install dependencies (Frontend)
+Navigate to Frontend Folder
+npm install
    -npm run dev
    
 11. The client will run on http://localhost:5173 while the server will run on
