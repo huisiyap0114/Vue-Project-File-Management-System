@@ -39,7 +39,7 @@ To run the project locally, please follow these steps:
 
 Setup
 1. Clone the repository
-   https://github.com/huisiyap0114/Vue-Project-File-Management-System
+   **https://github.com/huisiyap0114/Vue-Project-File-Management-System**
    
 3. Navigate to backend folder
    cd server
