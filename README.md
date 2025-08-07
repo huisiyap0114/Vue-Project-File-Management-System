@@ -1,6 +1,7 @@
 # Vue + Spring Boot File Management System
 
 This is a full-stack file management web application built with **Vue.js** for the frontend and **Spring Boot** for the backend. It allows users to upload, preview, and delete files through a clean, modern interface.
+
 Date submitted: 7th August 2025
 ---
 
@@ -20,15 +21,16 @@ Date submitted: 7th August 2025
 - **Database**: MySQL
 - **Build Tool**: Maven
 
-
+---
 ## Project Structure
 -client/ Vue.js frontend (Vite)
 -server / Spring Boot backend (Maven)
 -README.md/ Project Documentation
 
+---
 ## Installation
 To run the project locally, please follow these steps: 
-
+---
 ## Prerequisites
 -Java JDK
 -Maven
@@ -38,10 +40,17 @@ To run the project locally, please follow these steps:
 Setup
 1. Clone the repository
    https://github.com/huisiyap0114/Vue-Project-File-Management-System
-2. Navigate to the project directory
-   cd file-management-notes-app
-3. Install dependencies
-   npm run install-all
-4. Start the project:
-   npm start
-5. The client will run on http://localhost:5173 while the server will run on htt[://localhost:8080 by default.
+2. Navigate to backend folder
+   cd server
+3. Configure MySQL (Backend)
+   -CREATE DATABASE file_management_system
+   -Update application.propertities with your DB credentials
+4. Build and Run the backend
+   mvn clean install
+   mvn spring-boot:run
+5. Install dependencies (Frontend)
+   -Navigate to Frontend Folder
+   npm install
+   npm run dev
+6. The client will run on http://localhost:5173 while the server will run on
+   http://localhost:8080 by default.
