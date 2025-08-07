@@ -11,7 +11,7 @@ Date submitted: 7th August 2025
 - List all uploaded files
 - Delete unwanted files
 - File preview support
-- Organized into frontend (`/client`) and backend (`/server`) folders
+- Organized into frontend and backend folders
 
 ---
 ## Tech Stack
