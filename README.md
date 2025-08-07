@@ -40,23 +40,22 @@ To run the project locally, please follow these steps:
 Setup
 1. Clone the repository
    https://github.com/huisiyap0114/Vue-Project-File-Management-System
-   ---
+   
 3. Navigate to backend folder
    cd server
-   ---
+   
 5. Configure MySQL (Backend)
    -CREATE DATABASE file_management_system
    -Update application.propertities with your DB credentials
-   ---
+   
 7. Build and Run the backend
    mvn clean install
    mvn spring-boot:run
-   ---
+   
 9. Install dependencies (Frontend)
    -Navigate to Frontend Folder
    npm install
    npm run dev
-   ---
+   
 11. The client will run on http://localhost:5173 while the server will run on
    http://localhost:8080 by default.
-    ---
